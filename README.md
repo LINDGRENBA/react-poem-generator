@@ -1,10 +1,12 @@
 ## Whitman Poem Generator
+![component model](./public/component-model.png)
+
 
 ### Description :
 This is a small application to allow the user to get a random poem every time they click a button. I chose Walt Whitman because he's one of my favorite poets, but in the future, I would like to add several poets and give the user the ability to change authors using a dropdown UI. 
 <br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and built by following along with Stephen Grider's Modern React with Redux course.  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 <br/>  
 
 ### Setup :
