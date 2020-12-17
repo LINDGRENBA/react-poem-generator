@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 
 const Poem = ({ text }) => {
+  const [poem, setPoem] = useState('poem here');
+
+
+
+
   return (
     <div>
-          <button>{text}</button>
+      <p>{poem}</p>
+      <button>{text}</button>
     </div>
   )
 };
