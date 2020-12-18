@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const Poem = ({ text }) => {
-  const [poem, setPoem] = useState('poem here');
+  const [poem, setPoem] = useState('Click the "new poem" button to generate a poem');
 
 
 
