@@ -26,6 +26,9 @@ To add an API Key to the project
 
 ```
 
+### Future Goals :
+* Replace button with search field  
+<br />  
 
 ### Tools & Technology :
 * CSS

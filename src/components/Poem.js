@@ -10,7 +10,7 @@ const Poem = ({ text }) => {
   return (
     <div>
       <p>{poem}</p>
-      <button>{text}</button>
+      <button className="ui button">{text}</button>
     </div>
   )
 };
