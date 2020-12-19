@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/src/api/whitman.js
+.env
 
 # testing
 /coverage
