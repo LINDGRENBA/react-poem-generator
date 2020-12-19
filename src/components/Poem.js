@@ -39,16 +39,14 @@ const Poem = ({ text }) => {
       }
     }
     const { data } = await axios.request(poemOptions);
+    //  data:
+    // index: "as-consequent-etc."
+    // text: "the poem will be here"
+    // title: 
     setCurrentTitle(data.title);
     setCurrentPoem(data.text);
+    // should the call that receives the poem be part of a callback function?
   }
-
-//   data:
-// index: "as-consequent-etc."
-// text: "the poem will be here"
-// title: 
-
-  console.log(poemTitles);
 
   return (
     <div>

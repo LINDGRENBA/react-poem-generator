@@ -26,6 +26,9 @@ To add an API Key to the project
 
 ```
 
+### Known Bugs :
+1. On first click of `new poem` button, initial message disappears, no title or poem are rendered - likely issue with useEffect or onButtonClick - page rerendering?
+
 ### Future Goals :
 * Replace button with search field  
 <br />  
