@@ -1,4 +1,5 @@
-## Whitman Poem Generator
+## Walt Whitman Random Poem Generator
+![application demo](./public/demo.gif)
 ![component model](./public/component-model.png)
 
 
@@ -40,7 +41,9 @@ REACT_APP_API_KEY=[API-KEY]
 1. On first click of `new poem` button, initial message disappears, no title or poem are rendered - likely issue with useEffect or onButtonClick - page rerendering?
 
 ### Future Goals :
-* Replace button with search field  
+* Consider replacing button with search field 
+* Add option to switch Author / Poet
+* Update position of button so that user does not have to scroll to bottom of page when poem is longer
 <br />  
 
 ### Tools & Technology :
