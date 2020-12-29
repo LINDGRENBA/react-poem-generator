@@ -50,9 +50,9 @@ const Poem = ({ text }) => {
 
   return (
     <div>
+      <button onClick={onButtonClick}  className="ui button">{text}</button>
       <h1>{currentTitle}</h1>
       <p>{currentPoem === '' ? 'Click the "new poem" button to generate a random poem' : currentPoem}</p>
-      <button onClick={onButtonClick}  className="ui button">{text}</button>
     </div>
   )
 };
